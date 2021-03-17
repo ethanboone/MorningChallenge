@@ -1,0 +1,50 @@
+.stoplight-top {
+    background-color: rgb(41, 41, 41);
+    height: 50px;
+    width: 30px;
+    margin: auto;
+}
+
+.stoplight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    box-shadow: 0 8px 1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    height: 400px;
+    width: 160px;
+    margin: auto;
+}
+.light {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.red {
+    background-color: red;
+    margin-top: .5em;
+}
+
+.yellow {
+    background-color: yellow;
+    margin-top: .5em;
+}
+
+.green {
+    background-color: green;
+    margin-top: .5em
+}
+
+.red:hover {
+    box-shadow: 0 0 1em 1em rgba(255, 0, 0, 0.5);
+}
+.yellow:hover {
+    box-shadow: 0 0 1em 1em rgba(255, 255, 0, 0.5);
+}
+
+.green:hover {
+    box-shadow: 0 0 1em 1em rgba(0, 128, 0, 0.5);
+}
